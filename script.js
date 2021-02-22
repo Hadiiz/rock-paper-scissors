@@ -59,4 +59,15 @@ function game(){
     console.log("GAME OVER! "+playerScore<5? "Computer":"Player"+" Wins!");
 }
 
-game();
+const rock = document.getElementById('rock');
+rock.addEventListener('click', ()=>{
+    alert("rock");
+});
+const paper = document.getElementById('paper');
+paper.addEventListener('click', ()=>{
+    alert("paper");
+});
+const scissors = document.getElementById('scissors');
+scissors.addEventListener('click', ()=>{
+    alert("scissors");
+});

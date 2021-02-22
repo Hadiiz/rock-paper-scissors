@@ -1,15 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Pacifico&family=Varela+Round&display=swap');
 
 body{
-    background-color: #6d597a;
+    background-color: #ece2d0;
     height: 100%;
     width: 100%;
     margin: 0;
+    color: #a26769;
 }
 h1{
-    font-family: 'Bungee Inline', cursive;
-    color: #e56b6f;
-    font-size: 3em;
+    font-family: 'Pacifico', cursive;
+    color: #6d2e46;
+    font-size: 4.3em !important; 
+}
+h2{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 2.5em;
 }
 #game{
     text-align: center;
@@ -21,6 +27,7 @@ h1{
     display: flex;
     display: block;
     height: fit-content;
+    margin-left: -20px;
     /* border: 1px solid green; */
 }
 input{
