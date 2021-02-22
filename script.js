@@ -51,5 +51,8 @@ function play(e){
         scoreboard.computer++;
     prompt.textContent = roundResult;
     score.textContent = `${scoreboard.player} - ${scoreboard.computer}`;
-    
+    if(scoreboard.player == 5 || scoreboard.computer == 5){
+        scoreboard.player = 0;
+        scoreboard.computer = 0;
+    }
 }
