@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
+
+body{
+    background-color: #6d597a;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+h1{
+    font-family: 'Bungee Inline', cursive;
+    color: #e56b6f;
+    font-size: 3em;
+}
+#game{
+    text-align: center;
+    display: block;
+    /* border:1px solid #ffb703; */
+    height: 100px;
+}
+#buttons{
+    display: flex;
+    display: block;
+    height: fit-content;
+    /* border: 1px solid green; */
+}
+input{
+    margin:2em;
+}
+#rock{
+    height: 300px;
+}
+#paper{
+    height: 300px;
+    /* width: auto; */
+}
+#scissors{
+    height: 300px;
+}
